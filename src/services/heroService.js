@@ -23,7 +23,9 @@ export const getHeroById = async (id) => {
   }
 };
 
-export default {
+const heroService = {
   searchHeroes,
   getHeroById
 };
+
+export default heroService;

@@ -45,6 +45,9 @@ export const TeamProvider = ({ children }) => {
     setTeam(prev => prev.filter(hero => hero.id !== heroId));
   };
 
+  // Eliminar esta función si no se usa en ninguna parte
+  // O exportarla como parte del contexto si se necesita en otros componentes
+  
   return (
     <TeamContext.Provider value={{ team, addToTeam, removeFromTeam }}>
       {children}
