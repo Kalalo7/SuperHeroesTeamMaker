@@ -1,0 +1,11 @@
+[
+  {
+    "applyTo": "deadpool",
+    "headers": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      }
+    ]
+  }
+]
