@@ -1,69 +1,72 @@
-# Getting Started with Create React App
+# Superhero Team Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Superhero Team Builder](https://wallpaperaccess.com/full/93912.jpg)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Superhero Team Builder is a web application that allows users to create their ultimate superhero team by searching and selecting heroes from various universes. Build balanced teams of heroes and villains, analyze their combined stats, and create the perfect squad for any mission!
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🦸‍♂️ Hero Search
+- Search for any superhero or villain by name
+- View detailed information about each character
+- See key stats like strength, intelligence, and speed at a glance
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛡️ Team Building
+- Add up to 6 heroes to your team
+- Maintain balance with a maximum of 3 good heroes and 3 villains
+- Remove heroes from your team as needed
+- Teams are automatically saved to local storage
 
-### `npm test`
+### 📊 Team Statistics
+- View average stats for your entire team
+- Track intelligence, strength, speed, durability, power, and combat metrics
+- Visualize stats with dynamic progress bars
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📱 Responsive Design
+- Fully responsive interface that works on desktop and mobile devices
+- Clean, modern UI with superhero-themed styling
 
-### `npm run build`
+## Technical Details
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Built with React.js and React Bootstrap
+- Uses React Router for navigation
+- Context API for state management
+- Local storage for persisting team data
+- Powered by the Superhero API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the development server with `npm start`
+4. Open your browser to `http://localhost:3000`
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Log in with the following credentials:
+   - Email: challenge@alkemy.org
+   - Password: react
+2. Search for heroes using the search bar
+3. Click "Add to Team" to add heroes to your team
+4. View your team's average stats in the Team Stats panel
+5. Remove heroes from your team as needed
+6. Click on "Details" to view more information about a hero
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Limitations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Maximum team size is 6 heroes
+- Maximum 3 heroes of each alignment (good/bad)
+- Cannot add the same hero twice
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is open source and available under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Coded by [Kalalo7](https://github.com/kalalo7)
 
 ### `npm run build` fails to minify
 
