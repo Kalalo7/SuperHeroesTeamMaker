@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SuperHeroesTeamMaker/static/css/main.cedb0f93.css",
-    "main.js": "/SuperHeroesTeamMaker/static/js/main.e7f2b85a.js",
+    "main.js": "/SuperHeroesTeamMaker/static/js/main.5ebe9228.js",
     "static/js/453.2bf58be7.chunk.js": "/SuperHeroesTeamMaker/static/js/453.2bf58be7.chunk.js",
     "index.html": "/SuperHeroesTeamMaker/index.html",
     "main.cedb0f93.css.map": "/SuperHeroesTeamMaker/static/css/main.cedb0f93.css.map",
-    "main.e7f2b85a.js.map": "/SuperHeroesTeamMaker/static/js/main.e7f2b85a.js.map",
+    "main.5ebe9228.js.map": "/SuperHeroesTeamMaker/static/js/main.5ebe9228.js.map",
     "453.2bf58be7.chunk.js.map": "/SuperHeroesTeamMaker/static/js/453.2bf58be7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cedb0f93.css",
-    "static/js/main.e7f2b85a.js"
+    "static/js/main.5ebe9228.js"
   ]
 }
