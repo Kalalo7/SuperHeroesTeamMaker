@@ -1,73 +1,45 @@
 # Superhero Team Builder
 
-![Superhero Team Builder](https://wallpaperaccess.com/full/93912.jpg)
+Una aplicación web interactiva que permite a los usuarios crear y gestionar su propio equipo de superhéroes. Desarrollada con React y Bootstrap, esta aplicación consume la API de superhéroes para ofrecer una experiencia de usuario dinámica y atractiva.
 
-## Overview
+## Características principales:
 
-Superhero Team Builder is a web application that allows users to create their ultimate superhero team by searching and selecting heroes from various universes. Build balanced teams of heroes and villains, analyze their combined stats, and create the perfect squad for any mission!
+- Búsqueda de superhéroes por nombre
+- Visualización detallada de estadísticas y biografías de héroes
+- Creación de equipos con balance entre héroes buenos y malos
+- Estadísticas del equipo calculadas automáticamente
+- Interfaz de usuario moderna y responsive
+- Diseño visual atractivo con tarjetas de héroe estilizadas
 
-## Features
+## Capturas de pantalla
 
-### 🦸‍♂️ Hero Search
-- Search for any superhero or villain by name
-- View detailed information about each character
-- See key stats like strength, intelligence, and speed at a glance
+### Búsqueda de héroes
+![Búsqueda de héroes](https://res.cloudinary.com/conectart/image/upload/fl_preserve_transparency/v1744067380/dobtgdi2nswwwqd9vrpi.jpg?_s=public-apps)
 
-### 🛡️ Team Building
-- Add up to 6 heroes to your team
-- Maintain balance with a maximum of 3 good heroes and 3 villains
-- Remove heroes from your team as needed
-- Teams are automatically saved to local storage
+### Tu equipo
+![Tu equipo](https://res.cloudinary.com/conectart/image/upload/fl_preserve_transparency/v1744067380/bnujada3er2eng5qxyaw.jpg?_s=public-apps)
 
-### 📊 Team Statistics
-- View average stats for your entire team
-- Track intelligence, strength, speed, durability, power, and combat metrics
-- Visualize stats with dynamic progress bars
+### Detalles del héroe
+![Detalles del héroe](https://res.cloudinary.com/conectart/image/upload/fl_preserve_transparency/v1744067380/dlqlyqebl6pwrmz3rbwp.jpg?_s=public-apps)
 
-### 📱 Responsive Design
-- Fully responsive interface that works on desktop and mobile devices
-- Clean, modern UI with superhero-themed styling
+## Tecnologías utilizadas:
+- React.js
+- React Router
+- Context API para gestión de estado
+- Bootstrap y CSS personalizado
+- Consumo de API RESTful
 
-## Technical Details
+## Instalación y uso
 
-- Built with React.js and React Bootstrap
-- Uses React Router for navigation
-- Context API for state management
-- Local storage for persisting team data
-- Powered by the Superhero API
+1. Clona este repositorio
+2. Instala las dependencias con `npm install`
+3. Ejecuta la aplicación en modo desarrollo con `npm start`
+4. Accede a la aplicación en http://localhost:3000
 
-## Getting Started
+## Despliegue
 
-1. Clone the repository
-2. Install dependencies with `npm install`
-3. Start the development server with `npm start`
-4. Open your browser to `http://localhost:3000`
+La aplicación está desplegada en GitHub Pages y puede accederse en: [SuperHeroesTeamMaker](https://kalalo7.github.io/SuperHeroesTeamMaker/)
 
-## Usage
+## Autor
 
-1. Log in with the following credentials:
-   - Email: challenge@alkemy.org
-   - Password: react
-2. Search for heroes using the search bar
-3. Click "Add to Team" to add heroes to your team
-4. View your team's average stats in the Team Stats panel
-5. Remove heroes from your team as needed
-6. Click on "Details" to view more information about a hero
-
-## Limitations
-
-- Maximum team size is 6 heroes
-- Maximum 3 heroes of each alignment (good/bad)
-- Cannot add the same hero twice
-
-## License
-
-This project is open source and available under the MIT License.
-
----
-
-Coded by [Kalalo7](https://github.com/kalalo7)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado por [Kalalo7](https://github.com/Kalalo7) como parte del desafío de Alkemy para demostrar habilidades en desarrollo frontend con React.
